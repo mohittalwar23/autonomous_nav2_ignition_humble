@@ -13,7 +13,12 @@
 
 ## Setup and build
 ```
-# Install Nav2 dependencies
+cd ros2_ws/src
+
+git clone https://github.com/mohittalwar23/autonomous_nav2_ignition_humble
+
+cd ..
+
 sudo apt install ros-humble-navigation2 ros-humble-nav2-bringup
 
 # Import source dependencies
@@ -42,6 +47,15 @@ ros2 launch sam_bot_nav2_gz complete_navigation.launch.py
 ros2 run sam_bot_nav2_gz follow_waypoints.py
 ros2 run sam_bot_nav2_gz reach_goal.py
 ```
+
+## File Structure 
+```
+ros2_ws
+ - build
+ - install
+ - src/gz_ros2_control
+ - src/ros_gz
+ - src/sam_bot_nav2_gz
 
 
 
