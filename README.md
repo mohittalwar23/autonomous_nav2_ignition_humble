@@ -1,6 +1,9 @@
 
 # Autonomous Navigation with Nav2 in Gazebo
 
+![out](https://github.com/user-attachments/assets/407f35a5-722f-4b15-85be-66c02939ad46)
+
+
 
 ## Requirements
  - ROS 2 Humble
